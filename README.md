@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+Link do site: <a href='https://lucasterencio.github.io/qr-code-component/'>qr-code-component</a>
 
 ## Welcome! 👋
 
