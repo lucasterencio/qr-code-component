@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 16px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 4.77%));
+}
+
+.card img{
+    width: 288px;
+    height: 288px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.paragraph h1{
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.paragraph p{
+    text-align: center;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+@media screen and (max-width:375px){
+    body{
+        height: 812px;
+    }
+
+    .card{
+        filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 25%));
+    }
+}
